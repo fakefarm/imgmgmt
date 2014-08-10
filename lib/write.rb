@@ -11,7 +11,7 @@ class Write
   def save
     File.open(file, 'a+') do |i|
       i.puts ""
-      i.write "<img style='height: 430px;' src='" + image + "'>"
+      i.write "<img style='height: 450px;' src='" + image + "'>"
     end
   end
 
