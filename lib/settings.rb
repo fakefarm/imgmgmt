@@ -14,10 +14,10 @@ class Settings
 private
 
   def file_formatted
-    Time.now.strftime("%F") + ".html"
+    Time.now.strftime("%B_%y") + ".html"
   end
 
   def get_settings_file
-    "pages/"
+    "issues/"
   end
 end
