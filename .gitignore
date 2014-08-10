@@ -1,0 +1,8 @@
+vendor
+.bundle
+*.swp
+*.swo
+*.rb.swo
+*.rb.swp
+.DS_Store
+jots/*
