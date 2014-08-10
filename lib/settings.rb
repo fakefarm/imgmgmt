@@ -18,6 +18,6 @@ private
   end
 
   def get_settings_file
-    "images/"
+    "pages/"
   end
 end
