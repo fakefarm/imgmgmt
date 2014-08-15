@@ -13,7 +13,7 @@ class Settings
 private
 
   def file_formatted
-    Time.now.strftime("%B_%y") + ".html"
+    Time.now.strftime("%B_%y") + ".json"
   end
 
   def get_settings_file

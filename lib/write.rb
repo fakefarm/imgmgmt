@@ -1,3 +1,4 @@
+require 'json'
 require_relative 'settings'
 
 class Write
@@ -11,7 +12,7 @@ class Write
   def save
     File.open(file, 'a+') do |i|
       i.puts ""
-      i.write "<img style='height: 450px;' src='" + image + "'>"
+      i.write image 
     end
   end
 
@@ -20,5 +21,4 @@ private
   def file
     settings.directory + settings.file_name
   end
-
 end
