@@ -1,4 +1,3 @@
-require 'yaml'
 # require_relative 'setup_wizard'
 
 class Settings
